@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 60px;
+  padding: 2%px;
   background-color: rgba(9, 252, 9, 0.082);
   
 }
@@ -13,8 +13,8 @@ input{
   width:99.5%;
 }
 
-.by {
-  text-align: left;
+.by h6{
+  text-align: right;
 }
 
 .card{
@@ -22,17 +22,15 @@ input{
   background-color: rgba(247, 241, 153, 0.445);
   border: 1px solid black;
   border-radius: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin: 25px auto;
+  
+  margin: 2% 2%;
   overflow: hidden;
-  width: 500px;
-  height: 500px;
+  max-width: 80%;
   
 }
 
 .card p{
-  padding: 5px;
+  padding: 1%;
   text-align: center;
   
   
@@ -40,8 +38,9 @@ input{
 
 .card img {
   
-  margin-top:25px;
-  height: 400px;
+  margin-top:2%;
+  max-width: 80%;
+  
   
 }
 .card-grid {
@@ -53,20 +52,20 @@ input{
 
 footer{
   align-self: flex-end;
-  background: rgba(23, 32, 155, 0.781);
+  background: rgba(184, 188, 240, 0.781);
   border-radius: 15px;
-  color: #fff;
-  text-align: left;
-  padding: 5px;
+  color: rgb(18, 2, 112);
+  text-align: center;
+  padding: 1%;
   
   
 }
 
-footer  p,h4 {
-  margin: 25px 100px;
+footer  p,h2 {
+  margin: 1%px 2%px;
   
 }
 
 footer p{
-  text-align: right;
+  text-align: center;
 }

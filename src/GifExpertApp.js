@@ -10,11 +10,12 @@ export const GifExpertApp = () => {
 
     return (
         <>
-            <h4 className='by'>by Clemen 2021</h4>
-            <h1>Busca tu Gif favorito:</h1>
+        < div className='by'>
+            <h6>by Clemen 2021</h6>
+            <h3>Busca tu Gif favorito:</h3>
             <AddCategory  setCategories={ setCategories }/>
             <hr/>
-            
+        </div>    
             <ol>
                 {
                     categories.map( category => 
